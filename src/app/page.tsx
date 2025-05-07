@@ -76,15 +76,17 @@ export default function HomePage() {
         <h2 className={styles.sectionTitle}>Success Stories</h2>
         <div className={styles.testimonialCards}>
           <div className={styles.testimonialCard}>
-            <p className={styles.testimonialText}>
-              "This platform helped me land my dream job at Google! The mock interviews were incredibly realistic."
-            </p>
+          <p className={styles.testimonialText}>
+  &quot;This platform helped me land my dream job at Google! The mock interviews were incredibly realistic.&quot;
+</p>
+
             <p className={styles.testimonialAuthor}>- Sarah, Software Engineer</p>
           </div>
           <div className={styles.testimonialCard}>
-            <p className={styles.testimonialText}>
-              "The code analysis tool improved my problem-solving skills dramatically. I aced my technical rounds!"
-            </p>
+          <p className={styles.testimonialText}>
+  &quot;The code analysis tool improved my problem-solving skills dramatically. I aced my technical rounds!&quot;
+</p>
+
             <p className={styles.testimonialAuthor}>- Michael, Full Stack Developer</p>
           </div>
         </div>
